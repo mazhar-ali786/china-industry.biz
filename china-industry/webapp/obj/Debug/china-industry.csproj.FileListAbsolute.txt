@@ -1,0 +1,8 @@
+F:\SmartAdmin\china-industry\china-industry\webapp\bin\SmartAdminMvc.dll.config
+F:\SmartAdmin\china-industry\china-industry\webapp\bin\SmartAdminMvc.dll
+F:\SmartAdmin\china-industry\china-industry\webapp\bin\SmartAdminMvc.pdb
+F:\SmartAdmin\china-industry\china-industry\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+F:\SmartAdmin\china-industry\china-industry\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+F:\SmartAdmin\china-industry\china-industry\webapp\obj\Debug\SmartAdminMvc.dll
+F:\SmartAdmin\china-industry\china-industry\webapp\obj\Debug\SmartAdminMvc.pdb
+F:\SmartAdmin\china-industry\china-industry\webapp\obj\Debug\china-industry.csprojResolveAssemblyReference.cache

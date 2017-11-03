@@ -1,0 +1,84 @@
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.config
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.pdb
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\Antlr3.Runtime.pdb
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\EntityFramework.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\EntityFramework.SqlServer.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\Newtonsoft.Json.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Helpers.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Mvc.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Optimization.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Razor.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.Deployment.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.Razor.xml
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdmin.SeedProject.csprojResolveAssemblyReference.cache
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdminMvc.dll
+E:\mvctheme\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdminMvc.pdb
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.config
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.pdb
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\Antlr3.Runtime.pdb
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\EntityFramework.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\EntityFramework.SqlServer.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\Newtonsoft.Json.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Helpers.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Mvc.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Optimization.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Razor.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.Deployment.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.Razor.xml
+E:\E\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdmin.SeedProject.csprojResolveAssemblyReference.cache
+E:\E\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdminMvc.dll
+E:\E\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdminMvc.pdb
+E:\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.config
+E:\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll
+E:\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.pdb
+E:\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+E:\ASP.NetMVC5_seedProject\webapp\bin\Antlr3.Runtime.pdb
+E:\ASP.NetMVC5_seedProject\webapp\bin\EntityFramework.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\EntityFramework.SqlServer.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\Newtonsoft.Json.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Helpers.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Mvc.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Optimization.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Razor.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.Deployment.xml
+E:\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.Razor.xml
+E:\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdmin.SeedProject.csprojResolveAssemblyReference.cache
+E:\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdminMvc.dll
+E:\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdminMvc.pdb
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.config
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.pdb
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.CodeAnalysisLog.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\SmartAdminMvc.dll.lastcodeanalysissucceeded
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\Antlr3.Runtime.pdb
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\EntityFramework.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\EntityFramework.SqlServer.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\Newtonsoft.Json.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Helpers.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Mvc.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Optimization.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\System.Web.Razor.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdmin.SeedProject.csprojResolveAssemblyReference.cache
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdminMvc.dll
+C:\Users\Mazhar Ali\Downloads\Compressed\SmartAdmin\ASP.NetMVC5_seedProject\ASP.NetMVC5_seedProject\webapp\obj\Debug\SmartAdminMvc.pdb

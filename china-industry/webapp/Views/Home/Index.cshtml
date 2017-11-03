@@ -1,0 +1,142 @@
+﻿<!-- MAIN CONTENT -->
+<div id="content">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+
+            <!-- well -->
+            <div class="well">
+                <p>
+                    <img src="~/Content/img/avatars/logo.jpg" width="142" height="65" />
+                    <img src="~/Content/img/avatars/header_banner2.jpg" width="810" height="100" style="margin-left:100px;" />
+                </p>
+                <br />
+                <div id="myCarousel" class="carousel fade">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="item active">
+                            <img src="~/Content/img/avatars/banner_1.jpg" width="1098" height="236" alt="">
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="item">
+                            <img src="~/Content/img/avatars/banner_22.jpg" width="1098" height="236" alt="">
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="item">
+                            <img src="~/Content/img/avatars/banner_3.jpg" width="1098" height="236" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="~/Content/img/avatars/banner_42.jpg" width="1098" height="236" alt="">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                </div>
+
+            </div>
+            <!-- end well -->
+
+        </div>
+    </div>
+    <div class="widget-body no-padding">
+        <form id="login-form" class="smart-form" method="post" novalidate="novalidate" action="@Url.Action("Create","Sdks")">
+            <fieldset>
+                <div class="row">
+                    <section class="col col-3">
+                        <h2><a href="industry.html">Large Industry</a></h2>
+                        <label class="input" style="text-align:justify">
+                            <p>Shakeel - Have set up Soda Ash, Ethanol, H2O2 etc. <span>trend setting projects</span></p>
+                            <p>Project identification till commercial production</p>
+                            <p><span>Four Pillar Approach</span>; Equipment main frame from China, high tech from developed countries,  local fabrication and role of professional.</p>
+                        </label>
+                    </section>
+                    <section class="col col-3">
+                        <h2><a href="#E">SME Development Center</a></h2>
+                        <label class="input" style="text-align:justify">
+                            <div class="services_box_container">
+                                <p>Viable new projects <span>identification</span>, <span>setting up</span> production line, <span>marketing</span> facilitation and <span>financial</span> etc. services.</p>
+                                <p>Arranging <span>overseas Pakistanis</span> and <span>Chinese</span> firms Joint Venture for exportable to USA/EU</p>
+                                <p><span>Up gradation</span> and product diversification of existing SME.</p>
+                            </div>
+                        </label>
+                    </section>
+                    <section class="col col-3">
+                        <h2><a href="trade.html">Trade</a></h2>
+                        <label class="input" style="text-align:justify">
+                            <div class="services_box_container">
+                                <p><span>Sourcing manufacturers</span> at China for agency, Direct procurement' of equipment and material means <span>economy and reliability.</span>Agency for marketing. Sourcing manufacturers at China for agency.</p>
+                                <p><span>Arranged reserve</span> areas for Chinese companies in the upcoming industrial estate in Punjab province Lahore-Sundar, Faisalabad... <a href="trade.html">read more</a></p>
+                            </div>
+                        </label>
+                    </section>
+                    <section class="col col-3">
+                        <h2><a href="5-number-ones-in-industry.html">5 number ones in industry</a></h2>
+                        <label class="input" style="text-align:justify">
+                            <div class="services_box_container">
+                                <marquee behavior="scroll" direction="up" scrollamount="1" scrolldelay="50" style="height:145px;">
+                                    <p>1. Have set up <span>1st Soda Ash plant</span> by local investor in 1996 worth Rs. Billon plus. Country has only two Soda Ash plants, other one is owned by a multinational.</p>
+                                    <p>2. Have set up the <span>biggest Ethanol plant</span> (400,000 ltr/day) in the country  with zero pollution in 2004</p>
+                                    <p>3. Have developed <span>1st Hydrogen peroxide project</span> in the country  which is in  production since 2009.</p>
+                                    <p>4. Have set up <span>1st power plant</span> based at Punjab's low quality. </p>
+                                    <p>5. Prepared Free Trade Agreement draft and <span>economic strategy for China</span> for the Govt. of Pakistan. </p>
+                                </marquee>
+                            </div>
+                        </label>
+                    </section>
+                </div>
+                <div class="row">
+                    <section class="col col-4">
+                        <label class="input">
+
+                        </label>
+                    </section>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!-- END MAIN CONTENT -->
+@section pagespecific {
+    <script type="text/javascript">
+
+        // DO NOT REMOVE : GLOBAL FUNCTIONS!
+
+        $(document).ready(function () {
+
+            /*
+             * Autostart Carousel
+             */
+            $('.carousel.slide').carousel({
+                interval: 3000,
+                cycle: true
+            });
+            $('.carousel.fade').carousel({
+                interval: 3000,
+                cycle: true
+            });
+
+            // Fill all progress bars with animation
+
+            $('.progress-bar').progressbar({
+                display_text: 'fill'
+            });
+
+
+            /*
+             * Smart Notifications
+             */
+
+
+
+            // With Select
+
+
+        })
+
+    </script>
+
+}
