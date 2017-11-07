@@ -1,16 +1,6 @@
-﻿    <!-- Left panel : Navigation area -->
-<!-- Note: This width of the aside area can be adjusted through LESS variables -->
-<aside id="left-panel">
+﻿<aside id="left-panel">
 
-    <!-- User info -->
-    @*@{ Html.RenderPartial("_CurrentUser"); }*@
-    <!-- end user info -->
-    <!-- NAVIGATION : This navigation is also responsive
-
-    To make this navigation dynamic please make sure to link the node
-    (the reference to the nav > ul) after page load. Or the navigation
-    will not initialize.
-    -->
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <nav>
         <!-- NOTE: Notice the gaps after each icon usage <i></i>..
         Please note that these links work a bit different than
@@ -19,67 +9,168 @@
 
         <ul>
             <li class="@Html.RouteIf("index", "active")">
-                <a href="@Url.Action("index", "home")" title="Home"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Home</span></a>
+                <a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Home</span></a>
             </li>
-            <li class="@Html.RouteIf("index", "active")">
-                <a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">About Us</span></a>
+            <li class="@Html.RouteIf("graphs", "active")">
+                <a href="#"><i class="fa fa-lg fa-fw fa-bar-chart-o"></i> <span class="menu-item-parent">About Us</span></a>
                 <ul>
-                    <li class="@Html.RouteIf("index", "active")">
-                        <a href="@Url.Action("index", "home")" title="Dashboard"><span class="menu-item-parent">Our Major Projects</span></a>
+                    <li class="@Html.RouteIf("flot", "active")">
+                        <a href="@Url.Action("flot", "graphs")">Flot Charts</a>
                     </li>
-                    <li class="@Html.RouteIf("social", "active")">
-                        <a href="@Url.Action("social", "home")" title="Dashboard"><span class="menu-item-parent">CEO</span></a>
+                    <li class="@Html.RouteIf("morris", "active")">
+                        <a href="@Url.Action("morris", "graphs")">Morris Charts</a>
                     </li>
-                    <li class="@Html.RouteIf("social", "active")">
-                        <a href="@Url.Action("social", "home")" title="Dashboard"><span class="menu-item-parent">Our Philosophy</span></a>
+                    <li class="@Html.RouteIf("inline", "active")">
+                        <a href="@Url.Action("inline", "graphs")">Inline Charts</a>
+                    </li>
+                    <li class="@Html.RouteIf("dygraphs", "active")">
+                        <a href="@Url.Action("dygraphs", "graphs")">Dygraphs</a>
+                    </li>
+                    <li class="@Html.RouteIf("chartjs", "active")">
+                        <a href="@Url.Action("chartjs", "graphs")">Chart.js</a>
+                    </li>
+                    <li class="@Html.RouteIf("highcharts", "active")">
+                        <a href="@Url.Action("highcharts", "graphs")">HighchartTable <span class="badge pull-right inbox-badge bg-color-yellow">new</span></a>
                     </li>
                 </ul>
             </li>
-            <li class="@Html.RouteIf("index", "active")">
-                <a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Services</span></a>
+            <li class="@Html.RouteIf("tables", "active")">
+                <a href="#"><i class="fa fa-lg fa-fw fa-table"></i> <span class="menu-item-parent">Services</span></a>
                 <ul>
-                    <li class="@Html.RouteIf("index", "active")">
-                        <a href="@Url.Action("index", "home")" title="Dashboard"><span class="menu-item-parent">Large Industry</span></a>
+                    <li class="@Html.RouteIf("normal", "active")">
+                        <a href="@Url.Action("normal", "tables")">Normal Tables</a>
                     </li>
-                    <li class="@Html.RouteIf("social", "active")">
-                        <a href="@Url.Action("social", "home")" title="Dashboard"><span class="menu-item-parent">SME Development Center</span></a>
+                    <li class="@Html.RouteIf("datatables", "active")">
+                        <a href="@Url.Action("datatables", "tables")">Data Tables <span class="badge inbox-badge bg-color-greenLight hidden-mobile">responsive</span></a>
                     </li>
-                    <li class="@Html.RouteIf("social", "active")">
-                        <a href="@Url.Action("social", "home")" title="Dashboard"><span class="menu-item-parent">SME</span></a>
-                    </li>
-                    <li class="@Html.RouteIf("social", "active")">
-                        <a href="@Url.Action("social", "home")" title="Dashboard"><span class="menu-item-parent">Trade</span></a>
-                    </li>
-                    <li class="@Html.RouteIf("social", "active")">
-                        <a href="@Url.Action("social", "home")" title="Dashboard"><span class="menu-item-parent">Transfer of Technology</span></a>
-                    </li>
-                    <li class="@Html.RouteIf("social", "active")">
-                        <a href="@Url.Action("social", "home")" title="Dashboard"><span class="menu-item-parent">Service Providers Resource Center</span></a>
+                    <li class="@Html.RouteIf("jqgrid", "active")">
+                        <a href="@Url.Action("jqgrid", "tables")">Jquery Grid</a>
                     </li>
                 </ul>
             </li>
-            <li class="@Html.RouteIf("index", "active")">
-                <a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">EPC Project Capabilities</span></a>
+            <li class="@Html.RouteIf("forms", "active")">
+                <a href="#"><i class="fa fa-lg fa-fw fa-pencil-square-o"></i> <span class="menu-item-parent">EPC Project Capabilities</span></a>
                 <ul>
-                    <li class="@Html.RouteIf("index", "active")">
-                        <a href="@Url.Action("index", "home")" title="Dashboard"><span class="menu-item-parent">Methodology</span></a>
+                    <li class="@Html.RouteIf("smartelements", "active")">
+                        <a href="@Url.Action("smartelements", "forms")">Smart Form Elements</a>
                     </li>
-                    <li class="@Html.RouteIf("social", "active")">
-                        <a href="@Url.Action("social", "home")" title="Dashboard"><span class="menu-item-parent">Our Major Projects</span></a>
+                    <li class="@Html.RouteIf("templates", "active")">
+                        <a href="@Url.Action("templates", "forms")">Smart Form Layouts</a>
+                    </li>
+                    <li class="@Html.RouteIf("validation", "active")">
+                        <a href="@Url.Action("validation", "forms")">Smart Form Validation</a>
+                    </li>
+                    <li class="@Html.RouteIf("bootstrap", "active")">
+                        <a href="@Url.Action("bootstrap", "forms")">Bootstrap Form Elements</a>
+                    </li>
+                    <li class="@Html.RouteIf("plugins", "active")">
+                        <a href="@Url.Action("plugins", "forms")">Form Plugins</a>
+                    </li>
+                    <li class="@Html.RouteIf("wizards", "active")">
+                        <a href="@Url.Action("wizards", "forms")">Wizards</a>
+                    </li>
+                    <li class="@Html.RouteIf("editors", "active")">
+                        <a href="@Url.Action("editors", "forms")">Bootstrap Editors</a>
+                    </li>
+                    <li class="@Html.RouteIf("dropzone", "active")">
+                        <a href="@Url.Action("dropzone", "forms")">Dropzone </a>
+                    </li>
+                    <li class="@Html.RouteIf("cropping", "active")">
+                        <a href="@Url.Action("cropping", "forms")">Image Cropping <span class="badge pull-right inbox-badge bg-color-yellow">new</span></a>
                     </li>
                 </ul>
             </li>
-            <li class="@Html.RouteIf("index", "active")">
-                <a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Contacts</span></a>
+            <li class="@Html.RouteIf("element", "active")">
+                <a href="#"><i class="fa fa-lg fa-fw fa-desktop"></i> <span class="menu-item-parent">Contacts</span></a>
+                <ul>
+                    <li class="@Html.RouteIf("general", "active")">
+                        <a href="@Url.Action("general", "element")">General Elements</a>
+                    </li>
+                    <li class="@Html.RouteIf("buttons", "active")">
+                        <a href="@Url.Action("buttons", "element")">Buttons</a>
+                    </li>
+                    <li class="@Html.RouteIf("icons", "active")">
+                        <a href="#">Icons</a>
+                        <ul>
+                            <li class="@Html.RouteIf("fontawesome", "active")">
+                                <a href="@Url.Action("fontawesome", "icons")"><i class="fa fa-plane"></i> Font Awesome</a>
+                            </li>
+                            <li class="@Html.RouteIf("glyphicons", "active")">
+                                <a href="@Url.Action("glyphicons", "icons")"><i class="glyphicon glyphicon-plane"></i> Glyph Icons</a>
+                            </li>
+                            <li class="@Html.RouteIf("flags", "active")">
+                                <a href="@Url.Action("flags", "icons")"><i class="fa fa-flag"></i> Flags</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="@Html.RouteIf("grid", "active")">
+                        <a href="@Url.Action("grid", "icons")">Grid</a>
+                    </li>
+                    <li class="@Html.RouteIf("treeview", "active")">
+                        <a href="@Url.Action("treeview", "icons")">Tree View</a>
+                    </li>
+                    <li class="@Html.RouteIf("nestedlists", "active")">
+                        <a href="@Url.Action("nestedlists", "icons")">Nestable Lists</a>
+                    </li>
+                    <li class="@Html.RouteIf("jqueryui", "active")">
+                        <a href="@Url.Action("jqueryui", "icons")">JQuery UI</a>
+                    </li>
+                    <li class="@Html.RouteIf("typography", "active")">
+                        <a href="@Url.Action("typography", "icons")">Typography</a>
+                    </li>
+                    <li>
+                        <a href="#">Six Level Menu</a>
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-fw fa-folder-open"></i> Item #2</a>
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fa fa-fw fa-folder-open"></i> Sub #2.1 </a>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa fa-fw fa-file-text"></i> Item #2.1.1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-fw fa-plus"></i> Expand</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i class="fa fa-fw fa-trash-o"></i> Delete</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-fw fa-folder-open"></i> Item #3</a>
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fa fa-fw fa-folder-open"></i> 3ed Level </a>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
-            <li class="@Html.RouteIf("index", "active")">
-                <a href="#" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">FAQ</span></a>
+            <li class="@Html.RouteIf("widgets", "active")">
+                <a href="@Url.Action("widgets", "home")"><i class="fa fa-lg fa-fw fa-list-alt"></i> <span class="menu-item-parent">FAQ</span></a>
             </li>
         </ul>
-    </nav>
-    <span class="minifyme" data-action="minifyMenu">
-        <i class="fa fa-arrow-circle-left hit"></i>
-    </span>
+    </nav><!-- /.navbar-collapse -->
+
 
 </aside>
 <!-- END NAVIGATION -->
